@@ -653,6 +653,11 @@ div.footer-menu ul {
         color: #ffffff;
     }
 
+    .wrapper-bios .leftcontent img.floated{
+        float: none;
+        margin: 0 auto;
+    }
+
 
 }
 
@@ -706,12 +711,22 @@ div.footer-menu ul {
         top: 11px;
         left: -6px;
     }
+
+    .wrapper-bios .leftcontent img.floated{
+        float: none;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 1050px) {
     .container {
         width: 1050px;
         padding: 0 50px 0 50px;
+    }
+
+    .wrapper-bios .leftcontent img.floated{
+        float: right;
+        margin: 0 0 10px 20px;
     }
 
 }
